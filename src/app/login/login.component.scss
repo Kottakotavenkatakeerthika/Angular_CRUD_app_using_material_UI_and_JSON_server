@@ -1,4 +1,3 @@
-/* Define styles for the page container */
 .page {
     display: flex;
     justify-content: center;
@@ -7,7 +6,6 @@
     background-color: #f0f0f0;
   }
   
-  /* Style the login container */
   .login-container {
     background-color: #fff;
     padding: 30px;
@@ -15,43 +13,38 @@
     box-shadow: 0 0 10px #91639a;
     width: 300px;
     text-align: center;
-    /* Center the container within the page */
     margin: 0 auto;
   }
   
-  /* Style the login form */
   form {
     display: flex;
     flex-direction: column;
   }
   
-  /* Style form labels */
   label {
     font-weight: bold;
     margin-bottom: 5px;
     display: block;
-    text-align: left; /* Align text to the left */
+    text-align: left;
   }
   
-  /* Style form inputs */
   input[type="text"],
   input[type="password"] {
     padding: 10px;
-    margin: 5px 0; /* Adjusted margins to keep fields within the box */
+    margin: 5px 0; 
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     display: block;
-    width: 92%; /* Make inputs full width */
+    width: 92%;
   }
   
-  /* Center-align the label text vertically in the middle of the input field */
   label[for="username"],
   label[for="password"] {
-    line-height: 38px; /* Adjust the line height to vertically center the text */
+    line-height: 38px; 
   }
   
-  /* Style the login button */
+
   button[type="submit"] {
     background-color: #91639a;
     color: #fff;
@@ -62,7 +55,6 @@
     cursor: pointer;
   }
   
-  /* Disable the login button when the form is invalid */
   button[type="submit"]:disabled {
     background-color: #ccc;
     cursor: not-allowed;
